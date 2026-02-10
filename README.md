@@ -1,23 +1,16 @@
 # QuickDrop Enhancements
 
-With this package installed, QuickDrop ctrl-F will create a smaller icon in the absence of error terminals on the connector pane.
+Adjusts the automatic icon generation for libraries and VIs to accommodate maximized text carriage. Removes the border around the library banner to improve readability of 4-line VI icon text. The lines are allowed to hold 30 pixels of text instead of 28. For readability reasons, the black border color is changed to gray.
 
-![example](noerror.png)
+Impacts: Set Text Icon in a library's properties menu, Quick Drop's Auto format text (Ctrl+K).
 
-Additionally, the library text will fully utilize the 32px width of the icon for enhanced clarity
 
-![example](fullwidth.png)
+![example](example.png)
 
 ---
 
-## Installation Instructions
+## Install
 
-1. **Backup Your Files**  
-   Before proceeding, create a backup of your local directories by zipping the following paths:  
-   - `C:\Program Files\National Instruments\LabVIEW 20xx\vi.lib\LabVIEW Icon API`  
-   - `C:\Program Files\National Instruments\LabVIEW 20xx\resource\Framework\Providers\VILibrary`
-
-2. **Copy Files**  
-   Copy the contents of the `vi.lib` and `resource` directories from this repository into your LabVIEW-20xx folder.
+find the .vip packe in vipm folder.
 
 ---
