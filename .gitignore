@@ -18,5 +18,3 @@
 *.lvlps
 .cache/
 
-# vipm builds
-*.vip
