@@ -11,6 +11,6 @@ Impacts: Set Text Icon in a library's properties menu, Quick Drop's Auto format 
 
 ## Install
 
-find the .vip packe in vipm folder.
+find the .vip package in vipm folder.
 
 ---
