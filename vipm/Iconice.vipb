@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-30 14:24:01" Modified_Date="2026-03-13 14:58:23" Creator="tupp_js" Comments="" ID="8bf30204bb148e2cce449be32648b3f0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-30 14:24:01" Modified_Date="2026-04-05 17:19:03" Creator="tupp_js" Comments="" ID="d050d0065016fd2b1aa18241ed30a6db">
   <Library_General_Settings>
     <Package_File_Name>Peter_lconice</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -34,7 +34,7 @@ Impacts: Set Text Icon in a library's properties menu, Quick Drop's Auto format 
       <Copyright>Copyright (c) 2025, Peter</Copyright>
       <Packager>Peter</Packager>
       <URL>https://github.com/pettaa123/Iconice</URL>
-      <Release_Notes>use native calculate body text position.</Release_Notes>
+      <Release_Notes>added hyphenation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
