@@ -1,6 +1,19 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Hyphenation.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="270"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Text-Based VI Icon.lvlib:Adjust Text to Fit Rectangle.vi">
       <Breakpoints>
         <NodeIndexes>
@@ -10,6 +23,11 @@
       </Breakpoints>
       <Probes>
         <Generic>
+          <SignalUID value="532"/>
+          <SignalUID value="2886"/>
+          <SignalUID value="110"/>
+          <SignalUID value="1926"/>
+          <SignalUID value="3946"/>
         </Generic>
       </Probes>
     </VI>
@@ -22,10 +40,11 @@
       </Breakpoints>
       <Probes>
         <Generic>
+          <SignalUID value="528"/>
         </Generic>
       </Probes>
     </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:Test 2.vi">
+    <VI name="test Adjust Text to fit Rectangle.lvclass:Test exception columns.vi">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -34,54 +53,7 @@
       </Breakpoints>
       <Probes>
         <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:Test descriptive naming.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:Test long single syllable.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:Test short word and long syllables.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:Test two long single syllables.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
+          <SignalUID value="528"/>
         </Generic>
       </Probes>
     </VI>
@@ -94,42 +66,7 @@
       </Breakpoints>
       <Probes>
         <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:test boolean_1.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:test get current settings.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
-      </Probes>
-    </VI>
-    <VI name="test Adjust Text to fit Rectangle.lvclass:test reset to defaults.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
+          <SignalUID value="528"/>
         </Generic>
       </Probes>
     </VI>
